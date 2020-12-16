@@ -275,8 +275,8 @@ async def on_reaction_add(reaction, user):
         return
 
     if  reaction.emoji != EMOJI or \
-        await check_game_doesnt_exist_reaction(reaction.message.channel) or \
-        await check_not_game_creator_reaction(reaction.message.channel, user) or \
+        await check_game_doesnt_exist_quitely(reaction.message.channel) or \
+        await check_not_game_creator_quitely(reaction.message.channel, user) or \
         check_not_reaction_message(reaction.message.channel, reaction.message):
         return
 
