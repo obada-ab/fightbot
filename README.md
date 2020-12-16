@@ -9,8 +9,7 @@ This bot is uses the [discord.py](https://discordpy.readthedocs.io/en/latest/) l
 * Place your discord bot token and mongodb connection url inside `credentials.py`
 
 * Install dependencies :
-```python3 -m pip install dill pillow pymongo discord.py
-```
+```python3 -m pip install dill pillow pymongo discord.py```
     ([pymongo might require additional authentication dependencies](https://pymongo.readthedocs.io/en/stable/installation.html))
 
 * Run the bot:
